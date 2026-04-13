@@ -5,7 +5,8 @@
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-blue?style=for-the-badge&logo=yolo)
 
 A lightweight, real-time object detection pipeline utilizing YOLOv8 and OpenCV, specifically designed for live inference on FLIR Boson thermal camera feeds. This script is optimized for uncrewed ground vehicles (UGVs) like the Clearpath Husky, processing UVC thermal video streams via Ubuntu's V4L2 drivers.
-
+Check out Ultralitics Page for more details:
+https://github.com/ultralytics/ultralytics
 ##  Features
 * **Real-Time Inference:** Utilizes Ultralytics YOLOv8 `stream=True` generator for memory-efficient, low-latency processing.
 * **Plug-and-Play Thermal:** Configured for V4L2 thermal cameras (FLIR Boson) on Linux environments.
