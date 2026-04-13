@@ -71,12 +71,14 @@ This will show you which index the FLIR Boson was assigned.
 ---
 
 ##  Project Structure
+
+```text
 AI_Thermal_Object_Detector/
 │
 ├── best.pt          # Your trained YOLOv8 weights (user provided)
 ├── live_test.py     # Main inference loop
 ├── venv/            # Python virtual environment (do not commit this)
 └── README.md        # Project documentation
----
+```
 
 >  **Note:** The `venv/` folder should be added to your `.gitignore` so it is never pushed to GitHub. Only commit your source code and `README.md`.
